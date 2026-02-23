@@ -1,17 +1,17 @@
-Source: mx-packageinstaller-pkglist
+Source: snake-store-pkglist
 Section: admin
 Priority: optional
-Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+Maintainer: Harvey186 <harvey186@hotmail.com>
 Build-Depends: debhelper (>=12),
 Standards-Version: 3.9.5
-Vcs-Git: git://github.com/MX-Linux/mx-packageinstaller-pkglist
+Vcs-Git: https://github.com/LeOS-GSI/snake-store-pkglist
 
-Package: mx-packageinstaller-pkglist
+Package: snake-store-pkglist
 Architecture: all
-Depends: mx-packageinstaller (>=21.3.02)
-Description: Part of MX program for installing additional packages.
- MX-packageinstaller is a program used for installing additional packages. 
- MX-packageinstaller-pkglist contains the list of packages and installation instructions.
+Depends: snake-store (>=21.3.02)
+Description: Part of SnakeOS program for installing additional packages.
+ Snake Store is a program used for installing additional packages. 
+ Snake Store-pkglist contains the list of packages and installation instructions.
 
 
 Package: lo-backports-helper
@@ -23,7 +23,7 @@ Section: misc
 Priority: optional
 Multi-Arch: foreign
 Description: libreoffice dummy helper package
- A helper package for MX Package installer.
+ A helper package for Snake Store.
  
  
 Package: lo-main-helper
@@ -35,7 +35,7 @@ Section: misc
 Priority: optional
 Multi-Arch: foreign
 Description: libreoffice dummy helper package
- A helper package for MX Package Installer.
+ A helper package for Snake Store.
  
 Package: calibre-helper
 Architecture: all
@@ -45,4 +45,4 @@ Section: misc
 Priority: optional
 Multi-Arch: foreign
 Description: calibre dummy helper package
- A helper package for MX Package Installer.
+ A helper package for Snake Store.

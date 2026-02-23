@@ -1,4 +1,4 @@
-*.pm		usr/share/mx-packageinstaller-pkglist
-*.sh    	usr/share/mx-packageinstaller-pkglist
-*.dict		usr/share/mx-packageinstaller-pkglist
+*.pm		usr/share/snake-store-pkglist
+*.sh    	usr/share/snake-store-pkglist
+*.dict		usr/share/snake-store-pkglist
 bin/*		usr/bin
