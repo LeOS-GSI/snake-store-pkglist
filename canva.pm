@@ -2,38 +2,24 @@
 <app>
 
 <category>
-Themes
+WebApp
 </category>
 
-<name>
-Orchis
-</name>
+<n>
+Canva
+</n>
 
 <description>
-Material Design Theme
+   <de>WebApp für Canva</de>
+   <en>Webapp for Canva</en>
 </description>
 
-<installable>
-all
-</installable>
-
-<screenshot></screenshot>
-
-<preinstall>
-
-</preinstall>
-
 <install_package_names>
-orchis-gtk-theme
+canva-app
 </install_package_names>
 
-
-<postinstall>
-
-</postinstall>
-
-
 <uninstall_package_names>
-orchis-gtk-theme
+canva-app
 </uninstall_package_names>
+
 </app>
