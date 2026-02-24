@@ -35,3 +35,4 @@ Video
 Wallpapers
 Window Managers
 Virtualization
+WebApp

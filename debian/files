@@ -1,0 +1,5 @@
+calibre-helper_25.08.01_all.deb misc optional
+lo-backports-helper_25.08.01_all.deb misc optional
+lo-main-helper_25.08.01_all.deb misc optional
+snake-store-pkglist_25.08.01_all.deb admin optional
+snake-store-pkglist_25.08.01_amd64.buildinfo admin optional

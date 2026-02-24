@@ -1,0 +1,14 @@
+Package: lo-backports-helper
+Source: snake-store-pkglist
+Version: 25.08.01
+Architecture: all
+Maintainer: Harvey186 <harvey186@hotmail.com>
+Installed-Size: 8
+Depends: libreoffice-firefox-compat
+Conflicts: lo-main-helper
+Provides: lo-backports-helper
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Description: libreoffice dummy helper package
+ A helper package for Snake Store.

@@ -1,0 +1,13 @@
+Package: calibre-helper
+Source: snake-store-pkglist
+Version: 25.08.01
+Architecture: all
+Maintainer: Harvey186 <harvey186@hotmail.com>
+Installed-Size: 9
+Conflicts: calibre
+Provides: calibre-helper
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Description: calibre dummy helper package
+ A helper package for Snake Store.

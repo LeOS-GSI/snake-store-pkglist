@@ -2,30 +2,30 @@
 <app>
 
 <category>
-Graphics
+Email
 </category>
 
 <name>
-canva-app
+Aerion
 </name>
 
 <description>
-   <de>Webapp für Canva</de>
-   <en>Webapp for Canva</en>
+<de>Resourcen schonedner E-Mail Client</de>
+<en>Lightweight E-Mail Client</en>
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://codeberg.org/harvey186/snake-repo/src/branch/pages/pool/main/canva.png</screenshot>
+<screenshot>https://aerion.3df.io/img/screenshots/main-interface.png</screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-canva-app
+aerion
 </install_package_names>
 
 
@@ -35,6 +35,6 @@ canva-app
 
 
 <uninstall_package_names>
-canva-app
+aerion
 </uninstall_package_names>
 </app>

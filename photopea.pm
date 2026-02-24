@@ -6,7 +6,7 @@ Graphics
 </category>
 
 <name>
-canva-app
+photopea-app
 </name>
 
 <description>
@@ -18,14 +18,14 @@ canva-app
 all
 </installable>
 
-<screenshot>https://codeberg.org/harvey186/snake-repo/src/branch/pages/pool/main/canva.png</screenshot>
+<screenshot></screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-canva-app
+photopea-app
 </install_package_names>
 
 
@@ -35,6 +35,6 @@ canva-app
 
 
 <uninstall_package_names>
-canva-app
+photopea-app
 </uninstall_package_names>
 </app>

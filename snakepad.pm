@@ -2,30 +2,30 @@
 <app>
 
 <category>
-Graphics
+Utility
 </category>
 
 <name>
-canva-app
+SnakePad
 </name>
 
 <description>
-   <de>Webapp für Canva</de>
-   <en>Webapp for Canva</en>
+   <de>Text Editor</de>
+   <en>Text Editor</en>
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://codeberg.org/harvey186/snake-repo/src/branch/pages/pool/main/canva.png</screenshot>
+<screenshot></screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-canva-app
+snakepad
 </install_package_names>
 
 
@@ -35,6 +35,6 @@ canva-app
 
 
 <uninstall_package_names>
-canva-app
+snakepad
 </uninstall_package_names>
 </app>
