@@ -2,26 +2,28 @@
 <app>
 
 <category>
-Email
+Messaging
 </category>
 
 <name>
-Aerion
+DeltaChat
 </name>
 
 <description>
-<de>Resourcen schonender E-Mail Client</de>
-<en>Lightweight E-Mail Client</en>
+<de>Messenger</de>
+<en>Messenger</en>
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://aerion.3df.io/img/screenshots/main-interface.png</screenshot>
+<screenshot></screenshot>
 
 <preinstall>
-flatpak install -y flathub app/io.github.hkdb.Aerion/x86_64/stable
+flatpak install -y flathub app/chat.delta.desktop/x86_64/stable
+
+
 
 </preinstall>
 
@@ -36,6 +38,7 @@ flatpak install -y flathub app/io.github.hkdb.Aerion/x86_64/stable
 
 
 <uninstall_package_names>
-flatpak uninstall -y io.github.hkdb.Aerion
+flatpak uninstall -y chat.delta.desktop
+
 </uninstall_package_names>
 </app>

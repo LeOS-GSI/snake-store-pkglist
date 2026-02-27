@@ -2,27 +2,26 @@
 <app>
 
 <category>
-Email
+Utility 
 </category>
 
 <name>
-Aerion
+DigiKam
 </name>
 
 <description>
-<de>Resourcen schonender E-Mail Client</de>
-<en>Lightweight E-Mail Client</en>
+   <de>digiKam ist eine fortschrittliche Open-Source-Anwendung zur Verwaltung digitaler Fotos.</de>
+   <en>digiKam is an advanced open-source digital photo management application</en>
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://aerion.3df.io/img/screenshots/main-interface.png</screenshot>
+<screenshot></screenshot>
 
 <preinstall>
-flatpak install -y flathub app/io.github.hkdb.Aerion/x86_64/stable
-
+flatpak install -y flathub org.kde.digikam
 </preinstall>
 
 <install_package_names>
@@ -36,6 +35,8 @@ flatpak install -y flathub app/io.github.hkdb.Aerion/x86_64/stable
 
 
 <uninstall_package_names>
-flatpak uninstall -y io.github.hkdb.Aerion
+flatpak uninstall -y flathub org.kde.digikam
+
+
 </uninstall_package_names>
 </app>

@@ -2,7 +2,7 @@
 <app>
 
 <category>
-Video
+Multimedia
 </category>
 
 <name>

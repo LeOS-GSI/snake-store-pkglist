@@ -2,26 +2,26 @@
 <app>
 
 <category>
-Email
+Utility
 </category>
 
 <name>
-Aerion
+Nextcloud
 </name>
 
 <description>
-<de>Resourcen schonender E-Mail Client</de>
-<en>Lightweight E-Mail Client</en>
+   <de>Nextcloud Client</de>
+   <en> Nextcloud Client</en>
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://aerion.3df.io/img/screenshots/main-interface.png</screenshot>
+<screenshot></screenshot>
 
 <preinstall>
-flatpak install -y flathub app/io.github.hkdb.Aerion/x86_64/stable
+flatpak install -y flathub app/com.nextcloud.desktopclient.nextcloud/x86_64/stable
 
 </preinstall>
 
@@ -36,6 +36,7 @@ flatpak install -y flathub app/io.github.hkdb.Aerion/x86_64/stable
 
 
 <uninstall_package_names>
-flatpak uninstall -y io.github.hkdb.Aerion
+flatpak uninstall -y flathub app/com.nextcloud.desktopclient.nextcloud/x86_64/stable
+
 </uninstall_package_names>
 </app>

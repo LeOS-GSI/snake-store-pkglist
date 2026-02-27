@@ -2,16 +2,16 @@
 <app>
 
 <category>
-Email
+Maps
 </category>
 
 <name>
-Aerion
+OrganicMaps
 </name>
 
 <description>
-<de>Resourcen schonender E-Mail Client</de>
-<en>Lightweight E-Mail Client</en>
+<de>Maps</de>
+<en>Maps</en>
 </description>
 
 <installable>
@@ -21,7 +21,8 @@ all
 <screenshot>https://aerion.3df.io/img/screenshots/main-interface.png</screenshot>
 
 <preinstall>
-flatpak install -y flathub app/io.github.hkdb.Aerion/x86_64/stable
+flatpak install -y flathub app/app.organicmaps.desktop/x86_64/stable
+
 
 </preinstall>
 
@@ -36,6 +37,6 @@ flatpak install -y flathub app/io.github.hkdb.Aerion/x86_64/stable
 
 
 <uninstall_package_names>
-flatpak uninstall -y io.github.hkdb.Aerion
+flatpak uninstall -y organicmaps.desktop
 </uninstall_package_names>
 </app>

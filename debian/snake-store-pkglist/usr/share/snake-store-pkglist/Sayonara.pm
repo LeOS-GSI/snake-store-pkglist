@@ -6,7 +6,7 @@ Multimedia
 </category>
 
 <name>
-VLC
+Sayonara
 </name>
 
 <description>
@@ -63,15 +63,14 @@ VLC
 all
 </installable>
 
-<screenshot>https://screenshots.debian.net/shrine/screenshot/17169/simage/large-5d43952eca0b6fe999357ad0d311415c.png</screenshot>
+<screenshot></screenshot>
 
 <preinstall>
 
 </preinstall>
 
 <install_package_names>
-vlc
-vlc-l10n 
+sayonara
 </install_package_names>
 
 
@@ -81,7 +80,6 @@ vlc-l10n
 
 
 <uninstall_package_names>
-vlc
-vlc-l10n 
+sayonara
 </uninstall_package_names>
 </app>

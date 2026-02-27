@@ -2,31 +2,30 @@
 <app>
 
 <category>
-Email
+Utility
 </category>
 
 <name>
-Aerion
+Krusader
 </name>
 
 <description>
-<de>Resourcen schonender E-Mail Client</de>
-<en>Lightweight E-Mail Client</en>
+   <de>Doppelpanel-Dateimanager </de>
+   <en>twin panel (commander style) file manager </en>
 </description>
 
 <installable>
 all
 </installable>
 
-<screenshot>https://aerion.3df.io/img/screenshots/main-interface.png</screenshot>
+<screenshot></screenshot>
 
 <preinstall>
-flatpak install -y flathub app/io.github.hkdb.Aerion/x86_64/stable
 
 </preinstall>
 
 <install_package_names>
-
+krusader
 </install_package_names>
 
 
@@ -36,6 +35,6 @@ flatpak install -y flathub app/io.github.hkdb.Aerion/x86_64/stable
 
 
 <uninstall_package_names>
-flatpak uninstall -y io.github.hkdb.Aerion
+krusader
 </uninstall_package_names>
 </app>
